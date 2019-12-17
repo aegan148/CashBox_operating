@@ -1,9 +1,7 @@
 ﻿#include <iostream>
-#include <string>
 #include <vector>
 #include <algorithm>
 
-using namespace std;
 struct money {// struct for description value
 	enum struct nominal { none = 0, ft = 25, ff = 50, one = 100 };
 	nominal state;
